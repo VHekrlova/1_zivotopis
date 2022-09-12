@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*Obsah*/
 body {
     background: #A3C8FA;
     justify-content: center;
@@ -157,4 +158,30 @@ hr {
 
 .vzdelani p {
     font-size: 15px;
+}
+
+/*Menu*/
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:#063d64;
+
+}
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 30px;
+    transition: 0.3s;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color:#A3C8FA;
 }
