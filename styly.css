@@ -185,3 +185,14 @@ hr {
 .menu a:active {
     background-color:#A3C8FA;
 }
+
+/*Patička*/
+.paticka {
+    background-color:#063d64;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.paticka p {
+    color: white;
+}
